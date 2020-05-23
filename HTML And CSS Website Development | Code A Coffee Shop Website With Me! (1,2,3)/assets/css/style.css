@@ -124,10 +124,196 @@ body {
     background-color: #313539;
 }
 
+.body-container {
+    width: 90%;
+    margin: auto;
+}
+
 .body-main-img {
     width: 80%;
     height: auto;
     padding: 5%;
     display: block;
     margin: auto;
+}
+
+.body h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.body h3 {
+    color: #ab8b65;
+    font-size: 15px;
+}
+
+.body h1, .body h3 {
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.hr-one {
+    border-color: #ab8b65;
+    width: 20%;
+    margin: -5px 0 40px 0;
+}
+
+.body p {
+    color: #b5b3b3;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.body-pic-1 {
+    width: 40%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.img-row {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.image-1 {
+    height: 700px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.image-2 {
+    height: 700px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.parallax {
+    background-image: url('/assets/img/parallax-11.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.hr-two {
+    border-color: #ab8b65;
+    width: 20%;
+    margin: auto;
+}
+
+.parallax h2, .parallax p {
+    color: #fff;
+    text-transform: uppercase;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.parallax h2 {
+    padding-top: 175px;
+    font-size: 40px;
+}
+
+.hours-table {
+    color: #b5b3b3;
+}
+
+.hours-row {
+    background-color: rgb(36, 41, 45);
+}
+
+.image-table {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.hours-row {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: rgb(36, 41, 45);
+}
+
+.left h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.line-under-table {
+    border-color: #ab8b65;
+    width: 40%;
+}
+
+.hours-table tr td {
+    padding: 15px;
+    text-align: left;
+}
+
+.left {
+    margin: auto;
+}
+
+/* footer */
+
+footer {
+    background-color: #313539;
+    width: 90%;
+    margin: auto;
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+.footer-hr {
+    border-color: rgba(211, 211, 211, 0.2);
+    margin: 40px 0;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-h2 {
+    text-transform: uppercase;
+    padding: 40px 0 0 10px;
+}
+
+.social-icons-footer {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.social-icons-footer ul {
+    display: inline-block;
+}
+
+.social-icons-footer ul li {
+    list-style-type: none;
+    float: left;
+    padding: 0 10px 0 5px;
+    font-size: 20px;
+}
+
+.footer-table {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-table tr td {
+    padding: 2% 5%;
+}
+
+.third td {
+    color: #747474;
 }
