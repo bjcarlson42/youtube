@@ -7,6 +7,7 @@
 
 body {
     font-family: "Unica One", Arial, Helvetica, sans-serif;
+    background-color: #313539;
 }
 
 /* CSS Grid */
@@ -14,9 +15,11 @@ body {
 .coffee-shop-container {
     display: grid;
     grid-template-columns: 300px 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
-.left-nav-container {
+.left-nav-column {
     grid-area: 1 / 1 / 3 / 2;
 }
 
@@ -32,8 +35,8 @@ body {
 
 .header {
     text-align: center;
-    color: #fff;
     background-color: #292c30;
+    color: #fff;
     padding: 50px;
 }
 
@@ -43,18 +46,17 @@ body {
 
 /* left nav column */
 
-.left-nav-container {
-    background: #292c30;
+.left-nav-column {
+    background-color: #292c30;
+    position: fixed;
     height: 100vh;
     width: 300px;
-    position: fixed;
 }
 
 .logo {
     width: 200px;
     height: auto;
     display: block;
-    margin: auto;
     padding: 10px;
     margin: 15px auto 30px auto;
 }
@@ -66,19 +68,19 @@ body {
 }
 
 .left-navbar li {
+    border-bottom: 1px solid rgba(82, 82, 82, 0.4);
     padding: 12px;
     text-transform: uppercase;
     font-size: 15px;
-    border-bottom: 1px solid rgba(82, 82, 82, 0.4);
-}
-
-.top-nav-item {
-    border-top: 1px solid rgba(82, 82, 82, 0.4);
 }
 
 .left-navbar li a {
     color: #fff;
     text-decoration: none;
+}
+
+.left-navbar-li-top {
+    border-top: 1px solid rgba(82, 82, 82, 0.4);
 }
 
 .active {
@@ -91,6 +93,9 @@ body {
 
 .social-icons {
     margin-top: 20px;
+}
+
+.social-icons {
     text-align: center;
 }
 
@@ -170,15 +175,10 @@ body {
     margin-bottom: 100px;
 }
 
-.img-row {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-}
-
 .image-1 {
     height: 700px;
-    object-fit: cover;
-    width: 100%;
+    width: auto;
+    object-fit: 100%;
 }
 
 .image-2 {
@@ -230,20 +230,34 @@ body {
     width: 100%;
 }
 
+.img-row {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
 .hours-row {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     background-color: rgb(36, 41, 45);
 }
 
+.left {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 90%;
+    margin: auto;
+}
+
+.right {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
 .left h3 {
     font-size: 25px;
-    text-align: center;
 }
 
 .line-under-table {
     border-color: #ab8b65;
-    width: 40%;
+    width: 30%;
 }
 
 .hours-table tr td {
@@ -251,21 +265,10 @@ body {
     text-align: left;
 }
 
-.left {
-    margin: auto;
-}
-
-/* footer */
-
 footer {
     background-color: #313539;
     width: 90%;
     margin: auto;
-}
-
-.footer-logo {
-    width: 100px;
-    height: auto;
 }
 
 footer h2 {
@@ -275,6 +278,11 @@ footer h2 {
 .footer-hr {
     border-color: rgba(211, 211, 211, 0.2);
     margin: 40px 0;
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
 }
 
 .logo-container {
@@ -290,7 +298,7 @@ footer h2 {
 
 .social-icons-footer {
     text-align: right;
-    margin-bottom: 50px;
+    margin-top: -50px;
 }
 
 .social-icons-footer ul {
@@ -314,6 +322,6 @@ footer h2 {
     padding: 2% 5%;
 }
 
-.third td {
+.third  td{
     color: #747474;
 }
