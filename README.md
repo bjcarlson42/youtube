@@ -15,3 +15,4 @@ This repo contains all of the code from my YouTube channel
 - **Python Automation With Selenium Part 2: Liking and Commenting** - https://youtu.be/8FysfhwDdXk
 - **Python Automation With Selenium Tutorial | Instagram Commenting** - https://youtu.be/XSBByzO1xjg
 - **Web Scraping Popular YouTube Videos | Python One Day Builds** - https://youtu.be/zhkhdD2hkQw
+- **Tweepy | Python Twitter Bot** - https://youtu.be/RkWsOW1Du3s
