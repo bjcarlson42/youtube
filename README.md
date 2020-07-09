@@ -1,6 +1,6 @@
 # YouTube!
 
-My Channel - https://www.youtube.com/channel/UCLMdmCCRFGWt7rktx6tMErw?view_as=subscriber
+My Channel - https://www.youtube.com/benjamincarlson
 
 This repo contains all of the code from my YouTube channel
 
