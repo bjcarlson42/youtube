@@ -1,0 +1,1 @@
+- Add Google Analytics And Google Adsense To NextJS - https://youtu.be/qQzyoFpgAFA
