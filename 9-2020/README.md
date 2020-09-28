@@ -1,1 +1,2 @@
 - Add Google Analytics And Google Adsense To NextJS - https://youtu.be/qQzyoFpgAFA
+- App Bar Tutorial - https://youtu.be/Jr2X1NCelkQ

@@ -24,13 +24,26 @@ Run `flutter doctor` if you have issues
 
 ### HTML/CSS website
 
-Simply open the project in VSCode, right click, and hit open live server.
+Simply open the project in VSCode, right click, and click open live server.
 
 ## Table of Contents
+
+### September 2020
+
+- Add Google Analytics And Google Adsense To NextJS - https://youtu.be/qQzyoFpgAFA
+- App Bar Tutorial - https://youtu.be/Jr2X1NCelkQ
+
+### August 2020
+
+- getStaticProps - https://youtu.be/VH_3hzpAPbQ
+- getStaticPaths - https://youtu.be/nKg0132Nu0o
+- getServerSideProps - https://youtu.be/qUhYZi-KMPQ
 
 ### July 2020
 
 - Tweepy Twitter Bot | Python Automation - https://youtu.be/RkWsOW1Du3s
+- getInitialProps - https://youtu.be/RgQxcw2R1q0
+- NextJS pages, css, static files - https://youtu.be/HM5kB2x1ccw
 
 ### June 2020
 

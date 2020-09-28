@@ -1,0 +1,3 @@
+- getStaticProps - https://youtu.be/VH_3hzpAPbQ
+- getStaticPaths - https://youtu.be/nKg0132Nu0o
+- getServerSideProps - https://youtu.be/qUhYZi-KMPQ

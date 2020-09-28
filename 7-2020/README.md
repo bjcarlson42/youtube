@@ -1,1 +1,3 @@
 - Tweepy Twitter Bot | Python Automation - https://youtu.be/RkWsOW1Du3s
+- getInitialProps - https://youtu.be/RgQxcw2R1q0
+- NextJS pages, css, static files - https://youtu.be/HM5kB2x1ccw
