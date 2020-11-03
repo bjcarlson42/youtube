@@ -28,6 +28,10 @@ Simply open the project in VSCode, right click, and click open live server.
 
 ## Table of Contents
 
+### October 2020
+
+- Chakra-ui and Next.js quickstart - https://youtu.be/zauiWxYbwPw
+
 ### September 2020
 
 - Add Google Analytics And Google Adsense To NextJS - https://youtu.be/qQzyoFpgAFA
