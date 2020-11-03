@@ -1,0 +1,18 @@
+{
+  "name": "chakra-ui-youtube",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^1.0.0-rc.8",
+    "@chakra-ui/icons": "^1.0.0-rc.8",
+    "framer-motion": "^2.9.4",
+    "next": "10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}

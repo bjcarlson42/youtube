@@ -1,0 +1,1 @@
+- Chakra-ui and Next.js quickstart - https://youtu.be/zauiWxYbwPw
