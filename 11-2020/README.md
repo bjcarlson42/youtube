@@ -1,0 +1,1 @@
+- Strava API - https://youtu.be/zQwjZSuKTp4
