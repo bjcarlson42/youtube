@@ -28,6 +28,14 @@ Simply open the project in VSCode, right click, and click open live server.
 
 ## Table of Contents
 
+### January 2021
+
+- Python Instagram Automation - https://youtu.be/hibhU5Rqt1s
+
+### December 2020
+
+- All my 25 days of Flutter code can be found [here](https://github.com/bjcarlson42/flutter25/tree/main/code)
+
 ### November 2020
 
 - Strava API - https://youtu.be/zQwjZSuKTp4
