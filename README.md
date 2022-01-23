@@ -1,5 +1,7 @@
 # YouTube!
 
+> Edit January, 2022: I still commit code to this repo however, a lot of my newer videos have code in their own repo. This repo link can be found in the description of the respective video.
+
 This repo contains all of the code from my [YouTube channel](https://www.youtube.com/benjamincarlson).
 
 The code is organized by month. Ex: if the video was uploaded in June, 2020, the code for that video will be in the June 2020 folder (6-2020). Code is NOT organized by language, project type, etc. By organizing the code by month it should be easy to find the code for the video you are watching. 
